@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-'''The script runs Live Tail and process the output to post every event to
+'''The script runs Live Tail and processes the command output to post every event to
 Datadog's Events Dashboard and a data-point to custom metric loggly.livetail.dd_integ.count_404
 every minute. The command this script runs is equivalent to "./livetail -m 404"
 '''
